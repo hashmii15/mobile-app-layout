@@ -1,0 +1,102 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  display: grid;
+  justify-content: center;
+  width: 400px;
+  margin: 0px auto;
+  border: solid 1px black;
+}
+.star {
+  background-color: white;
+  height: 26px;
+  width: 26px;
+  border-radius: 100%;
+}
+.red-button {
+  background-color: red;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+  color: white;
+  width: 150px;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  border-radius: 10px;
+  /* justify-self: right; */
+}
+.setting {
+  width: 20px;
+  grid-column: 3;
+  justify-self: end;
+}
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column: 3fr;
+}
+h1 {
+  font-family: sans-serif;
+  margin-top: 10px;
+}
+.account {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 20px;
+}
+.view-all {
+  color: #15aabf;
+  grid-column: 3;
+  justify-self: end;
+}
+.money {
+  background-color: #38d9a9;
+  height: 20px;
+  width: 30px;
+  justify-items: end;
+  margin-bottom: 20px;
+}
+.check {
+  display: grid;
+  grid-template-columns: 20px 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  grid-column: 1;
+}
+.pound {
+  justify-self: end;
+  grid-column: 4;
+}
+.add {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: white;
+  justify-self: end;
+}
+.add-1 {
+  justify-items: end;
+  grid-column: 3;
+  background-color: #e9ecef;
+  color: #15aabf;
+  width: 100px;
+  padding-left: 8px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 0px;
+  border-radius: 10px;
+}
+.box-1 {
+  width: 370px;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-columns: 1fr;
+  margin-top: 10px;
+  background-color: whitesmoke;
+  margin-left: 10px;
+}
